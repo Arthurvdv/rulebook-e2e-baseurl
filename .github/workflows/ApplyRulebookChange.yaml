@@ -49,7 +49,7 @@ jobs:
           Add-Content -LiteralPath $env:GITHUB_OUTPUT -Value $lines
           Write-Host "Secret: $name, direct commit: $directCommit"
       - name: Apply the change set
-        uses: ALCops/rulebook-engine/actions/ApplyChangeSet@main
+        uses: ALCops/rulebook-engine/actions/ApplyChangeSet@v1
         with:
           issueNumber: ${{ github.event.issue.number }}
           token: ${{ secrets[steps.settings.outputs.secretName] }}

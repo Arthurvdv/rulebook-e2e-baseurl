@@ -2,7 +2,7 @@
 
 Your rulebook repository follows the template's `main`, which is always the latest release. What following `main` gives you, how to pin a release with a tag, how to read the release notes, what `preview` is, and how a breaking change reaches you as a deprecation instead of a new major version.
 
-> **Status:** written 2026-10-11 with the release work package of the engine ([WP13, #15](https://github.com/ALCops/rulebook-engine/issues/15)) and rewritten the same day for [#104](https://github.com/ALCops/rulebook-engine/issues/104); the decision is [D53](https://github.com/ALCops/rulebook-engine/blob/main/docs/adr/0053-template-main-is-the-release-preview-the-bleeding-edge-and-deprecations-replace-majors.md). How a release is cut is the engine's [releasing.md](https://github.com/ALCops/rulebook-engine/blob/main/docs/releasing.md).
+> **Status:** written 2026-10-11 with the release work package of the engine ([WP13, #15](https://github.com/ALCops/rulebook-engine/issues/15)) and rewritten the same day for [#104](https://github.com/ALCops/rulebook-engine/issues/104); the decision is [D53](https://github.com/ALCops/rulebook-engine/blob/v1/docs/adr/0053-template-main-is-the-release-preview-the-bleeding-edge-and-deprecations-replace-majors.md). How a release is cut is the engine's [releasing.md](https://github.com/ALCops/rulebook-engine/blob/v1/docs/releasing.md).
 
 ## Contents
 
