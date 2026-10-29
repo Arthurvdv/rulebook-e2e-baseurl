@@ -19,8 +19,8 @@
   ],
   "ghTokenWorkflowSecretName": "GHTOKENWORKFLOW",
   "commitOptions": { "createPullRequest": true, "pullRequestLabels": ["rulebook"] },
-  "site": { "enabled": true, "includeJustifications": false, "updateMode": "skip" },
-  "docs": { "updateMode": "skip" },
+  "site": { "enabled": true, "includeJustifications": false, "updateMode": "overwrite" },
+  "docs": { "updateMode": "overwrite" },
   "update": { "schedule": null },
   "scan": { "schedule": "17 4 * * *" },
   "unusedRulebookFiles": []
