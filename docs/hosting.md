@@ -2,7 +2,7 @@
 
 Your AL projects fetch their rules from URLs. This page explains where those URLs come from: the Publish workflow puts your endpoints, the skeletons, `rulebook.json`, the catalog and the dashboard site (or a plain index page) on GitHub Pages and then checks that every URL serves what you committed.
 
-> **Status:** written 2026-10-06 with the Publish work package of the engine ([WP05, #7](https://github.com/ALCops/rulebook-engine/issues/7)). GitHub Pages is the only host available in version 1. The contributor reference, with the preflight messages and the live test run, is the engine's [publish-targets.md](https://github.com/ALCops/rulebook-engine/blob/v1/docs/reference/publish-targets.md).
+> **Status:** written 2026-10-06 with the Publish work package of the engine ([WP05, #7](https://github.com/ALCops/rulebook-engine/issues/7)). GitHub Pages is the only host available in version 1. The contributor reference, with the preflight messages and the live test run, is the engine's [publish-targets.md](https://github.com/ALCops/rulebook-engine/blob/main/docs/reference/publish-targets.md).
 
 ## Contents
 
@@ -15,7 +15,7 @@ Your AL projects fetch their rules from URLs. This page explains where those URL
 
 | URL | Content |
 |---|---|
-| `<baseUrl>/` | With `site.enabled` set to `true` (shipped): the dashboard, the grid of the first stage ([dashboard.md](dashboard.md)). With `false`: an index page, how to set up an AL project with the init script, then one table per stage, one row per level, with the endpoint URL, the number of rules it lists and a download link for the skeleton. |
+| `<baseUrl>/` | With `site.enabled` set to `true` (shipped): the dashboard's landing page, with the grid of each stage at `<baseUrl>/stages/<stage>/` ([dashboard.md](dashboard.md)). With `false`: an index page, how to set up an AL project with the init script, then one table per stage, one row per level, with the endpoint URL, the number of rules it lists and a download link for the skeleton. |
 | `<baseUrl>/setup/`, `<baseUrl>/stages/<stage>/`, `<baseUrl>/levels/<level>/`, `<baseUrl>/rules/<id>/` | The other pages of the dashboard, only with `site.enabled` set to `true`: the setup page with the content of the index page above, a grid per stage, a page per level and per rule ([dashboard.md](dashboard.md) section 1). The site's styles and scripts are under `css/` and `js/`. |
 | `<baseUrl>/rulebook.json` | Your rulebook, machine-readable: the levels and stages, which the init script reads ([al-project.md](al-project.md)), and every rule with its action on every endpoint and the input that decides it, the data of the dashboard ([dashboard.md](dashboard.md) section 6). |
 | `<baseUrl>/catalog/diagnostics.json` | Your `catalog/diagnostics.json`, byte for byte. |
