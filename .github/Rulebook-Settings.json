@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/ALCops/rulebook-engine/v1/schemas/rulebook-settings.schema.json",
   "templateUrl": "https://github.com/ALCops/rulebook@main",
-  "templateSha": "",
+  "templateSha": "33cd82c0bda91037ba06353c147380e2cadc885b",
   "baseUrl": "",
   "publish": { "target": "pages" },
   "twins": "both",
